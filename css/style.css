@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+/* Common CSS End*/
+
+/* Header CSS Start*/
+.header{
+	width:100%;
+	padding: 0px 0px 20px;
+}
+.top-header{
+	width:100%;
+	background: #f5f7fa;
+	padding:5px 0;
+}
+.top-info{
+	width:100%;
+}
+.top-info ul{}
+.top-info li{
+	display: inline-block;
+	font-size: 14px;
+	color:#506a85;
+	margin-right: 15px;
+}
+.top-info .fa{
+	margin-right: 10px;
+}
+.social-icons{
+	width:100%;
+	display: block;
+	text-align: right;
+}
+.social-icons li{
+	display: inline-block;
+	margin: 0px 5px;
+}
+.social-icons li a{
+	font-size: 14px;
+	color:#506a85;
+}
+.social-icons li a:hover,
+.social-icons li a:focus{
+	color:#00bc9c;
+}
+.social-icons li a .fa{}
+.main-menu{}
+.main-menu .bg-light {
+	background-color: transparent !important;
+}
+.main-menu .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: #506a85;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+	color: #506a85;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0px 15px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover,
+.main-menu .navbar-light .navbar-nav .nav-link:focus{
+	color:#00bc9c;
+}
+.main-menu .fa-search{
+	color: #506a85;
+}
+
+/* Header CSS End*/
+/* Slider CSS Start */
+.slider{}
+.slider .carousel-caption h2{
+	font-size: 78px;
+	font-weight: 700;
+	color:#fff;
+	text-transform: uppercase;
+}
+.slider .carousel-caption{
+	bottom: 8.25rem;
+}
+.slider .carousel-caption p{
+	width: 90%;
+	font-size: 22px;
+	line-height: 32px;
+	color: #a3b1bf;
+}
+.slider .carousel-control-prev {
+	left: 0 !important;
+	bottom: 10% !important;
+}
+.slider .carousel-control-next {
+	right: 0 !important;
+	bottom: 10% !important;
+}
+.slider .btn-info{
+	padding: 15px 40px;
+	background: #00bc9c;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius:3px;
+	color:#fff;
+	text-transform: uppercase;
+	margin-top:60px;
+	transition: 1s;
+}
+.slider .btn-info:hover,
+.slider .btn-info:focus{
+	background: transparent;
+	border:1px solid #00bc9c;
+	color:#00bc9c;
+}
+/* Slider CSS End */
+
+/* Who We CSS Start*/
+.who-we{
+	width:100%;
+	padding: 80px 0;
+}
+.title{
+	width:100%;
+	text-align:center;
+}
+.title h3{
+	font-size: 44px;
+	font-weight: 700;
+	color:#506a85;
+}
+.title p {
+	font-size: 19px;
+	line-height: 38px;
+	color: #73879c;
+	padding: 0px 37px;
+}
+.inner-who-we{
+	width: 100%;
+	padding: 40px 0px 0px;
+}
+.inner-who-we img {
+	margin-top: 20px;
+}
+.inner-who-we .card{
+	border:none;
+}
+.inner-who-we .card-body{}
+.inner-who-we .card-title{
+	font-size: 26px;
+	font-weight: 700;
+	color:#506a85;
+}
+.inner-who-we .card-text{
+	font-size: 15px;
+	line-height: 26px;
+	color:#73879c;
+	font-weight: 600;
+}
+
+
+/* Who We CSS End*/
+
+/* Latest Work CSS Start */
+.latest-work{
+	width:100%;
+	padding: 80px 0px;
+	background: #f2f5f7
+}
+.inner-latest-work{
+	margin:50px 0px;
+}
+.latest-work .card{
+	width:100%;
+	text-align: center;
+}
+.latest-work .card .card-body{}
+.latest-work .card .card-body h5{
+	font-size: 20px;
+	font-weight: 700;
+	color:#506a85;
+}
+.latest-work .card .card-body p{
+	font-size: 14px;
+	color:#73879c;
+}
+
+/* Latest Work CSS End */
