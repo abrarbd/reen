@@ -78,7 +78,7 @@
       </div>
       <!-- Menu Section Start -->
       <div class="main-menu">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3">
           <div class="container">
             <a class="navbar-brand" href="index.html">
               <img src="images/logo.png" alt="Reen">
@@ -452,6 +452,8 @@
     <!-- Footer Section End -->
     <!-- jQuery JS -->
     <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- Sticky JS -->
+    <script src="js/jquery.sticky.js"></script>
     <!-- Wow Js -->
     <script src="js/wow.min.js"></script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
@@ -479,6 +481,7 @@
           }, 3000);
         });
 
+        $(".navbar").sticky({topSpacing:0, zIndex:999});
      });
      new WOW().init();
    </script>
