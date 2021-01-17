@@ -66,7 +66,7 @@ li{
 .social-icons li a .fa{}
 .main-menu{}
 .main-menu .bg-light {
-	background-color: transparent !important;
+	background-color: #fff !important;
 }
 .main-menu .nav-link, .navbar-light .navbar-nav .nav-link.active {
     color: #506a85;
